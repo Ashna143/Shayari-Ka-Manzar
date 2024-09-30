@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shayari-Ka-Manzar</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Shayari-Ka-Manzar Collection</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#love">Love Shayari</a></li>
+            <li><a href="#friendship">Friendship Shayari</a></li>
+            <li><a href="#sad">Sad Shayari</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="shayari-display">
+            <h2>Popular Shayari</h2>
+            <div class="shayari" id="shayari-example">
+                <p>Chat na jana kuch aisi hai apsaa ka rath ko din </p>
+                <p><strong>Category:</strong> Love</p>
+                <div class="comments">
+                    <h3>Comments:</h3>
+                    <ul id="comment-list"></ul>
+                    <form id="comment-form">
+                        <input type="text" id="comment-input" placeholder="Add a comment..." required>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="user-submission">
+            <h2>Submit Your Shayari</h2>
+            <form id="shayari-form">
+                <textarea id="shayari-input" placeholder="Write your shayari here..." required></textarea>
+                <button type="submit">Submit Shayari</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Ashna</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
